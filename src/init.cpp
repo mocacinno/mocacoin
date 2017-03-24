@@ -883,10 +883,10 @@ void InitParameterInteraction()
     if (nLiqProvTmp > 0) {
         mapArgs["-enableprivatesend"] = "1";
         LogPrintf("%s: parameter interaction: -liquidityprovider=%d -> setting -enableprivatesend=1\n", __func__, nLiqProvTmp);
-        mapArgs["-privatesendrounds"] = "19839";
-        LogPrintf("%s: parameter interaction: -liquidityprovider=%d -> setting -privatesendrounds=19839\n", __func__, nLiqProvTmp);
-        mapArgs["-privatesendamount"] = "198399";
-        LogPrintf("%s: parameter interaction: -liquidityprovider=%d -> setting -privatesendamount=198399\n", __func__, nLiqProvTmp);
+        mapArgs["-privatesendrounds"] = "99999";
+        LogPrintf("%s: parameter interaction: -liquidityprovider=%d -> setting -privatesendrounds=99999\n", __func__, nLiqProvTmp);
+        mapArgs["-privatesendamount"] = "999999";
+        LogPrintf("%s: parameter interaction: -liquidityprovider=%d -> setting -privatesendamount=999999\n", __func__, nLiqProvTmp);
         mapArgs["-privatesendmultisession"] = "0";
         LogPrintf("%s: parameter interaction: -liquidityprovider=%d -> setting -privatesendmultisession=0\n", __func__, nLiqProvTmp);
     }
@@ -1845,9 +1845,9 @@ bool AppInit2(boost::thread_group& threadGroup, CScheduler& scheduler)
     fEnablePrivateSend = GetBoolArg("-enableprivatesend", 0);
     fPrivateSendMultiSession = GetBoolArg("-privatesendmultisession", DEFAULT_PRIVATESEND_MULTISESSION);
     nPrivateSendRounds = GetArg("-privatesendrounds", DEFAULT_PRIVATESEND_ROUNDS);
-    nPrivateSendRounds = std::min(std::max(nPrivateSendRounds, 2), nLiquidityProvider ? 19839 : 16);
+    nPrivateSendRounds = std::min(std::max(nPrivateSendRounds, 2), nLiquidityProvider ? 99999 : 16);
     nPrivateSendAmount = GetArg("-privatesendamount", DEFAULT_PRIVATESEND_AMOUNT);
-    nPrivateSendAmount = std::min(std::max(nPrivateSendAmount, 2), 198399);
+    nPrivateSendAmount = std::min(std::max(nPrivateSendAmount, 2), 999999);
 
     fEnableInstantSend = GetBoolArg("-enableinstantsend", 1);
     nInstantSendDepth = GetArg("-instantsenddepth", DEFAULT_INSTANTSEND_DEPTH);
