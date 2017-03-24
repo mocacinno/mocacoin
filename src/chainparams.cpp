@@ -127,11 +127,13 @@ public:
         assert(genesis.hashMerkleRoot == uint256S("0xe0028eb9648db56b1ac77cf090b99048a8007e2bb64b68f092c03c7f56a662c7"));
 
 
-        vSeeds.push_back(CDNSSeedData("mocacoin.org", "dnsseed.mocacoin.org"));
-        vSeeds.push_back(CDNSSeedData("mocacoindot.io", "dnsseed.mocacoindot.io"));
-        vSeeds.push_back(CDNSSeedData("masternode.io", "dnsseed.masternode.io"));
-        vSeeds.push_back(CDNSSeedData("mocacoinpay.io", "dnsseed.mocacoinpay.io"));
-
+        vSeeds.push_back(CDNSSeedData("mocacinno.com", "mocacinno.com"));
+        vSeeds.push_back(CDNSSeedData("mocacinno.tk", "mocacinno.tk"));
+        vSeeds.push_back(CDNSSeedData("seed.mocacinno.com", "seed.mocacinno.com"));
+        vSeeds.push_back(CDNSSeedData("seed.mocacinno.tk", "seed.mocacinno.tk"));
+        vSeeds.push_back(CDNSSeedData("seed2.mocacinno.com", "seed2.mocacinno.com"));
+        vSeeds.push_back(CDNSSeedData("seed3.mocacinno.com", "seed3.mocacinno.com"));
+        vSeeds.push_back(CDNSSeedData("seed4.mocacinno.com", "seed4.mocacinno.com"));
         // Mocacoin addresses start with 'X'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,76);
         // Mocacoin script addresses start with '7'
