@@ -32,7 +32,7 @@ from threading import Thread
 import logging
 import copy
 
-import mocacoin_hash
+import dash_hash
 
 BIP0031_VERSION = 60000
 MY_VERSION = 70206  # current MIN_PEER_PROTO_VERSION
@@ -65,7 +65,7 @@ def hash256(s):
     return sha256(sha256(s))
 
 def mocacoinhash(s):
-    return mocacoin_hash.getPoWHash(s)
+    return dash_hash.getPoWHash(s)
 
 def deser_string(f):
     nit = struct.unpack("<B", f.read(1))[0]
