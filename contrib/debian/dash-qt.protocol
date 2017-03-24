@@ -1,0 +1,11 @@
+[Protocol]
+exec=mocacoin-qt '%u'
+protocol=mocacoin
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false

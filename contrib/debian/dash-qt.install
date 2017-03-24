@@ -1,0 +1,6 @@
+usr/local/bin/mocacoin-qt usr/bin
+share/pixmaps/mocacoin32.xpm usr/share/pixmaps
+share/pixmaps/mocacoin16.xpm usr/share/pixmaps
+share/pixmaps/mocacoin128.png usr/share/pixmaps
+debian/mocacoin-qt.desktop usr/share/applications
+debian/mocacoin-qt.protocol usr/share/kde4/services/

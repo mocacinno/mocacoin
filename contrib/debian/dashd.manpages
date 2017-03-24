@@ -1,0 +1,3 @@
+debian/manpages/mocacoind.1
+debian/manpages/mocacoin.conf.5
+debian/manpages/mocacoin-cli.1
