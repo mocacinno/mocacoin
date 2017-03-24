@@ -5,7 +5,7 @@ Mocacoin is a 100% clone of DASH. It adds no new features, isn't innovative and 
 
 Mocacoin was created as a proof that it is really easy to rip off other people's work, create an ICO, premine, ROM without any knowledge and rip off the community.
 
-Mocacoin should not be traded for BTC or FIAT in any way! If i ever find Mocacoin on any exchange (or on an exchange thread in any forum), i will dump the full premine and floor the price so that any traded mocacoin instantly becomes worthless!
+Mocacoin should not be traded for BTC or FIAT in any way! If i ever find Mocacoin on any exchange (or on an exchange thread in any forum), i will dump the full premine and floor the price so that any traded mocacoin instantly becomes worthless! Any profit from this dump will end up in my daughter's piggybank...
 
 
 License
