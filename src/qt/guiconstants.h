@@ -48,7 +48,7 @@ static const int MAX_URI_LENGTH = 255;
 #define SPINNER_FRAMES 36
 
 #define QAPP_ORG_NAME "Mocacoin"
-#define QAPP_ORG_DOMAIN "mocacoin.org"
+#define QAPP_ORG_DOMAIN "mocacinno.com"
 #define QAPP_APP_NAME_DEFAULT "Mocacoin-Qt"
 #define QAPP_APP_NAME_TESTNET "Mocacoin-Qt-testnet"
 
