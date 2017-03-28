@@ -3,7 +3,7 @@
 // Copyright (c) 2014-2017 The Mocacoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
-// python genesis.py -a X11 -z "Wired 09/Jan/2014 The Grand Experiment Goes Live: Overstock.com Is Now Accepting Bitcoins" -p "040184710fa689ad5023690c80f3a49c8f13f8d45b8c857fbcbc8bc4a8e4d3eb4b10f4d4604fa08dce601aaf0f470216fe1b51850b4acf21b179c45070ac7b03a9" -t 1390095618 -n 20917690
+// python genesis.py -a X11 -z "Wired 09/Jan/2014 The Grand Experiment Goes Live: Overstock.com Is Now Accepting Bitcoins" -p "040184710fa689ad5023690c80f3a49c8f13f8d45b8c857fbcbc8bc4a8e4d3eb4b10f4d4604fa08dce601aaf0f470216fe1b51850b4acf21b179c45070ac7b03a9" -t 1390095618 -n 28917598
 
 #include "chainparams.h"
 #include "consensus/merkle.h"
@@ -129,7 +129,7 @@ public:
         //nonce: 21960138
         genesis = CreateGenesisBlock(1390095618, 28917698, 0x1e0ffff0, 1, 50 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
-        //genesis hash: 00000f5359be6ab05ee5f6bb57c868b14033c0ad910c7972cbca8696d7f0f9e2
+        //genesis hash: 00000ffd590b1485b3caadc19b22e6379c733355108f107a430458cdf3407ab6
         assert(consensus.hashGenesisBlock == uint256S("0x00000ffd590b1485b3caadc19b22e6379c733355108f107a430458cdf3407ab6"));
         // merkle hash: e0028eb9648db56b1ac77cf090b99048a8007e2bb64b68f092c03c7f56a662c7
         assert(genesis.hashMerkleRoot == uint256S("0xe0028eb9648db56b1ac77cf090b99048a8007e2bb64b68f092c03c7f56a662c7"));
