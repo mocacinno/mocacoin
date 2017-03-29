@@ -142,10 +142,16 @@ public:
         vSeeds.push_back(CDNSSeedData("seed2.mocacinno.com", "seed2.mocacinno.com"));
         vSeeds.push_back(CDNSSeedData("seed3.mocacinno.com", "seed3.mocacinno.com"));
         vSeeds.push_back(CDNSSeedData("seed4.mocacinno.com", "seed4.mocacinno.com"));
-        // Mocacoin addresses start with 'X'
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,76);
-        // Mocacoin script addresses start with '7'
-        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,16);
+        vSeeds.push_back(CDNSSeedData("seed5.mocacinno.com", "seed5.mocacinno.com"));
+        vSeeds.push_back(CDNSSeedData("seed6.mocacinno.com", "seed6.mocacinno.com"));
+        vSeeds.push_back(CDNSSeedData("seed7.mocacinno.com", "seed7.mocacinno.com"));
+        vSeeds.push_back(CDNSSeedData("seed8.mocacinno.com", "seed8.mocacinno.com"));
+        vSeeds.push_back(CDNSSeedData("seed9.mocacinno.com", "seed9.mocacinno.com"));
+        vSeeds.push_back(CDNSSeedData("seed10.mocacinno.com", "seed10.mocacinno.com"));
+        // Mocacoin addresses start with 'M'
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,51);
+        // Mocacoin script addresses start with '6'
+        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,13);
         // Mocacoin private keys start with '7' or 'X'
         base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,204);
         // Mocacoin BIP32 pubkeys start with 'xpub' (Bitcoin defaults)
